@@ -8,6 +8,9 @@ import Bootstrap from './components/Bootstrap';
 import PageNotFound from './components/PageNotFound';
 import NavBar from './lauouts/NavBar';
 import NavLink from './lauouts/NavLink';
+
+import Calculator from './components/calculator/Calculator';
+
 class App extends Component {
   render() {
     return (
@@ -23,6 +26,7 @@ class App extends Component {
                   <Route exact path='/' component={Home} />
                   <Route exact path='/home' component={Home} />
                   <Route path='/bootstrap' component={Bootstrap} />
+                  <Route path='/calculator' component={Calculator} />
                   <Route path='*' component={PageNotFound} />
                 </Switch>
             </main>

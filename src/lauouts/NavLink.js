@@ -16,8 +16,18 @@ class NavLink extends Component {
                         <li className="nav-item">
                         <Link 
                             to='/bootstrap' 
-                            className="nav-link">
+                            className="nav-link"
+                            activeClassName="active">
                             Bootstrap
+                            </Link>
+                        </li>
+
+                        <li className="nav-item">
+                        <Link 
+                            to='/calculator' 
+                            className="nav-link"
+                            activeClassName="active">
+                            Calculator
                             </Link>
                         </li>
                                        
