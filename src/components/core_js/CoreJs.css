@@ -1,0 +1,10 @@
+.core-js-list {
+    border: solid 1px;
+    list-style: none;
+    width: 50%;
+    margin: 0 auto;
+}
+.core-js-list > li > span {
+    border: solid 1px;
+    cursor: pointer;
+}

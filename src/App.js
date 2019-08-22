@@ -10,6 +10,8 @@ import NavBar from './lauouts/NavBar';
 import NavLink from './lauouts/NavLink';
 
 import Calculator from './components/calculator/Calculator';
+import CoreJs from './components/core_js/CoreJs';
+
 
 class App extends Component {
   render() {
@@ -27,6 +29,7 @@ class App extends Component {
                   <Route exact path='/home' component={Home} />
                   <Route path='/bootstrap' component={Bootstrap} />
                   <Route path='/calculator' component={Calculator} />
+                  <Route path='/core-js' component={CoreJs} />
                   <Route path='*' component={PageNotFound} />
                 </Switch>
             </main>

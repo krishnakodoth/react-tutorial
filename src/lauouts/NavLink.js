@@ -30,6 +30,15 @@ class NavLink extends Component {
                             Calculator
                             </Link>
                         </li>
+
+                        <li className="nav-item">
+                        <Link 
+                            to='/core-js' 
+                            className="nav-link"
+                            activeClassName="active">
+                            Core JavaScript
+                            </Link>
+                        </li>
                                        
                     </ul>
                 </div>
