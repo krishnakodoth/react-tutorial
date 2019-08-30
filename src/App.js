@@ -11,6 +11,16 @@ import NavLink from './lauouts/NavLink';
 
 import Calculator from './components/calculator/Calculator';
 import CoreJs from './components/core_js/CoreJs';
+import FileUpload from './components/FileUpload';
+import Pagination from './components/Pagination/Pagination';
+import Filter from './components/Filter';
+import Mixins from './components/Mixins';
+import RenderProps from './components/RenderProps/RenderProps';
+import Chartjs2 from './components/Chartjs2';
+import HighChart from './components/HighChart';
+import ReactVideo from './components/ReactVideo';
+
+
 
 
 class App extends Component {
@@ -30,6 +40,20 @@ class App extends Component {
                   <Route path='/bootstrap' component={Bootstrap} />
                   <Route path='/calculator' component={Calculator} />
                   <Route path='/core-js' component={CoreJs} />
+                  <Route path='/file-upload' component={FileUpload} />
+                  <Route path='/pagination' component={ Pagination } />
+                  <Route path='/react-chartjs-2' component={ Chartjs2 } />
+                  <Route path='/high-chart' component={ HighChart } />
+                  <Route path='/react-video' component={ ReactVideo } />
+
+                  
+
+                  
+
+                  
+                  <Route path='/filter' component={ Filter } />
+                  <Route path='/render-props' component={ RenderProps } />
+                  <Route path='/mixin' component={ Mixins } />
                   <Route path='*' component={PageNotFound} />
                 </Switch>
             </main>

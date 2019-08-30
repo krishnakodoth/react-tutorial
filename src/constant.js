@@ -1,0 +1,1 @@
+export const API_URL = 'http://localhost/react_back/rest/api/';
